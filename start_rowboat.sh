@@ -4,8 +4,8 @@
 export PROVIDER_BASE_URL="https://openrouter.ai/api/v1"
 export PROVIDER_API_KEY="sk-1234"
 
-export PROVIDER_DEFAULT_MODEL="openai/gpt-4.1-nano"
-export PROVIDER_COPILOT_MODEL="openai/gpt-4.1-nano"
+export PROVIDER_DEFAULT_MODEL="openai/gpt-4.1-mini"
+export PROVIDER_COPILOT_MODEL="openai/gpt-4.1-mini"
 
 # 2. Clone the repository if it doesn't exist
 if [ ! -d "rowboat" ]; then
