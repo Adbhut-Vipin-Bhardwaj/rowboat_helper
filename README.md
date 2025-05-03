@@ -1,6 +1,6 @@
 # Rowboat Setup scripts
 
-This project has Rowboat setup scripts.
+This project has Rowboat [repo](https://github.com/rowboatlabs/rowboat) setup scripts.
 
 ## Prerequisites
 
