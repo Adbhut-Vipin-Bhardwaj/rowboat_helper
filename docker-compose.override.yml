@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  rowboat:
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  rowboat_agents:
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  copilot:
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  setup_qdrant:
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  delete_qdrant:
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  rag_files_worker:
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  rag_urls_worker:
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  rag_text_worker:
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  mongo:
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  redis:
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  docs:
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
