@@ -2,6 +2,8 @@
 
 This project has Rowboat [repo](https://github.com/rowboatlabs/rowboat) setup scripts.
 
+For commit 103a4045bf62d2eae9094189ed9839afd6f09ea1 of Rowboat repository.
+
 ## Prerequisites
 
 - Docker and Docker Compose
