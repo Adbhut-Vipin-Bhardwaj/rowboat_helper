@@ -1,36 +1,45 @@
 services:
   rowboat:
+    restart: "no"
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
   setup_qdrant:
+    restart: "no"
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
   delete_qdrant:
+    restart: "no"
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
   rag-worker:
+    restart: "no"
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
   jobs-worker:
+    restart: "no"
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
   mongo:
+    restart: "no"
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
   redis:
+    restart: "no"
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
   docs:
+    restart: "no"
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
   qdrant:
+    restart: "no"
     extra_hosts:
       - "host.docker.internal:host-gateway"
